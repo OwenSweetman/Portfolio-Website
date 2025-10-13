@@ -243,7 +243,7 @@ section{
   transform: scale(1.02);
 }
 .projects-card img{
-  max-width: 500px;
+  max-width: 300px;
   border-radius: 2rem;
   object-fit: cover;
 }

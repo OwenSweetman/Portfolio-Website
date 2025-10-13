@@ -173,7 +173,7 @@ section{
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  background: var(--second-bg-color)
+  background: var(--bg-color)
 }
 .about-img img{
   width: 32vw;
@@ -207,7 +207,7 @@ section{
 }
 
 .projects{
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
 }
 .projects h2{
   font-size: 7rem;
@@ -252,4 +252,63 @@ section{
 }
 .projects-card p{
   font-size: 1.6rem;
+}
+
+.contact{
+  background-color: var(--bg-color)
+}
+.contact h2{
+  font-size: 7rem;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.contact form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 5rem 0;
+  text-align: center;
+}
+.contact form .input-box input,
+.contact form textarea{
+  width: 100%;
+  padding: 2.5rem;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  background: var(--bg-color);
+  border: 2px solid var(--main-color);
+  border-radius: 2rem;
+  margin: 1.5rem 0;
+  resize: none;
+}
+
+.footer{
+  background-color: var(--bg-color);
+  padding: 50px 0;
+}
+.footer .social-icons{
+  text-align: center;
+}
+.footer ul{
+  text-align: center;
+  font-size: 1.8rem;
+}
+.footer ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer ul li a{
+  color: var(--text-color);
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+.footer ul li a:hover{
+  border-bottom: 3px solid var(--main-color);
+}
+.footer p{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
 }

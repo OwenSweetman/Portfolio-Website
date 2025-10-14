@@ -22,7 +22,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   color: var(--text-color);
 }
 .header{
@@ -168,12 +168,13 @@ section{
   box-shadow: 0 0 25px var(--main-color),
               0 0 50px var(--secondary-color);
 }
+
 .about{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  background: var(--bg-color)
+  background: var(--second-bg-color)
 }
 .about-img img{
   width: 32vw;
@@ -207,7 +208,7 @@ section{
 }
 
 .projects{
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
 }
 .projects h2{
   font-size: 7rem;
@@ -255,7 +256,7 @@ section{
 }
 
 .contact{
-  background-color: var(--bg-color)
+  background-color: var(--second-bg-color)
 }
 .contact h2{
   font-size: 7rem;
@@ -285,7 +286,7 @@ section{
 }
 
 .footer{
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
   padding: 50px 0;
 }
 .footer .social-icons{

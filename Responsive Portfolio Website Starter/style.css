@@ -353,7 +353,7 @@ section{
     text-align: center;
   }
   .home-content img{
-    wifthL: 56vw;
+    width: 56vw;
   }
   .about{
     flex-direction: column-reverse;
@@ -369,4 +369,5 @@ section{
   .contact form{
     flex-direction: column;
   };
+
 }
